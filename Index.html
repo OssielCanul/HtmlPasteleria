@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasteleria</title>
+  </head>
+<body>
+  <nav class="navbar bg-light">
+    <div class="container">
+      <a class="nav-item" href="#">
+        <img src="Images/logo.png" href="Index.html" width="100" height="100">
+      </a>
+      <div>
+      <ul class="nav ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">Index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Adornos.html">Adornos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sabores.html">Sabores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin.html">Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">Acerca de nosotros...</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <div class="container">
+    <form>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Name" >
+      </div>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Telefono</label>
+        <input type="text" class="form-control" id="Name" >
+      </div>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Correo Electronico</label>
+        <input type="email" class="form-control" id="Name" >
+      </div>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Descripción general del pastel</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <br>
+      <div class="mb-3">
+        <h3>Por favor de elejir los sabores a agregar</h3>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="sabor1">
+        <label class="form-check-label" for="sabor1">Sabor de vainilla</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="sabor2">
+        <label class="form-check-label" for="sabor2">Sabor de fresa</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="sabor3">
+        <label class="form-check-label" for="sabor3">Sabor de chocolate</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="sabor4">
+        <label class="form-check-label" for="sabor4">Sabor de oreo</label>
+      </div>
+      <div class="mb-3">
+        <h3>Por favor de elejir los adornos a agregar</h3>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="adorno1">
+        <label class="form-check-label" for="adorno1">Adornos de fresas</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="adorno2">
+        <label class="form-check-label" for="adorno2">Adornos de Among Us</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="adorno3">
+        <label class="form-check-label" for="adorno3">Adornos del espacio</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="adorno4">
+        <label class="form-check-label" for="adorno4">Adornos de dulces</label>
+      </div>
+
+      <br>
+      <button type="submit" class="btn btn-primary ">Enviar pedido</button>
+    </form>
+  </div>
+</body>
+</html>
